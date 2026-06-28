@@ -1,0 +1,7 @@
+streamlit>=1.30.0
+qrcode[pil]>=7.4.2
+pypdf>=4.0.0
+reportlab>=4.1.0
+Pillow>=10.2.0
+requests>=2.31.0
+pdf2image>=1.16.3
