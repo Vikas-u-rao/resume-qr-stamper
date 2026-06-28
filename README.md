@@ -99,18 +99,6 @@ Your privacy is important. All PDF files, URLs, and logos are processed entirely
 
 ---
 
-## 🧠 Behind the Code
-
-### How I built and refined it
-My approach to building this is iterative. I like to feed the entire project specification to one LLM (like Gemini), take the result, pass it to another (like Claude), and repeat this refining loop until the system is solid, clean, and optimized. 
-
-Here is what was tackled and optimized along the way:
-- **Foundational Bugs Fixed:** Cleaned up several silent bugs in standard libraries, including converting PIL images to bytes buffers so ReportLab doesn't crash on `drawImage`, updating deprecated `pypdf` page rotation calls, and wrapping raw hex values in `HexColor`.
-- **Previews & Visualization:** Added live QR rendering and a poppler-based PDF preview visualizer so you can see exactly where the stamp is landing.
-- **UTM Tracking:** Built in tracking parameter helpers so I can monitor analytics and know when recruiters are scanning the code.
-
----
-
 ## 📝 Technical Notes & Ideas for Further Improvement
 These are some developer notes and research areas I've been tracking to take things further:
 - **LLM State Prompts:** Checking and refining prompt inputs to prevent models from outputting null states.
