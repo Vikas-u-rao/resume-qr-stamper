@@ -1,8 +1,8 @@
 # 📄 Resume QR Stamper
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_svg.svg)](https://resumeqrstamper.streamlit.app/)
+[![Streamlit App](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=Streamlit&logoColor=white)](https://resumeqrstamper.streamlit.app/)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License: GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-blue.svg)](LICENSE)
 
 A clean, lightweight Python + Streamlit web tool that stamps a scannable, customized QR code onto an existing resume PDF without altering the underlying layout or font vectors.
 
@@ -98,4 +98,4 @@ Your privacy is important. All PDF files, URLs, and logos are processed entirely
 
 ## 📄 License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the GNU GPLv3 License. See `LICENSE` for more information.
